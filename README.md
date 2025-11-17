@@ -17,12 +17,8 @@
 3. Mantener la estructura de carpetas para que `cargar_datos()` encuentre los CSV estandarizados.
 
 ## Cómo ejecutar el Caso 1 (CVRP base)
-```pwsh
-cd "c:\Users\Manuel\OneDrive - Universidad de los andes\Documentos\Modelado\Proyecto 2\Proyecto-2"
-jupyter notebook Proyecto2.ipynb
-```
 1. Abrir el notebook y ejecutar las celdas en orden hasta `consola()`.
-2. El flujo hace: procesamiento → construcción del modelo → resolución con GLPK (300 s, mipgap 1 %) → extracción de rutas → generación de archivo de verificación → mapas y gráficos.
+2. El flujo hace: procesamiento → construcción del modelo → resolución con GLPK → extracción de rutas → generación de archivo de verificación → mapas y gráficos.
 3. Al finalizar se actualizan `verificacion_caso1.csv`, `mapa_caso1.html` y `metricas_caso1.png`.
 
 ## Resultados actuales (Caso 1)
