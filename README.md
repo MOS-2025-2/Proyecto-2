@@ -28,9 +28,3 @@ jupyter notebook Proyecto2.ipynb
 ## Resultados actuales (Caso 1)
 - **Datos cargados:** 24 clientes, 8 vehículos, 1 depósito, 600 arcos, demanda total 377 unidades vs capacidad 839 unidades.
 - **Solver:** GLPK 5.0, tiempo límite 301.40 s. Se obtuvo solución factible con costo **$890,458.08 COP**, uso de 3 vehículos y brecha reportada de 69.4 % respecto a la cota inferior (272,878 COP).
-- **Rutas extraídas:**
-	- `V001`: CD01-C002-C018-C008-C005-C011-C009-C006-CD01 (67.14 km, 161 min, utilización 93.1 %).
-	- `V002`: CD01-C023-C014-C003-C013-C022-C021-C007-C012-C020-CD01 (74.13 km, 178 min, utilización 99.3 %).
-	- `V003`: CD01-C015-C004-C001-C010-C016-C024-C017-C019-CD01 (77.19 km, 185 min, utilización 97.5 %).
-- **Verificación:** `verificacion_caso1.csv` sigue el formato oficial (VehicleId, DepotId, InitialLoad, RouteSequence, ClientsServed, DemandsSatisfied, TotalDistance, TotalTime, FuelCost).
-- **Visualizaciones:** mapa Folium con rutas por color y figura `metricas_caso1.png` con utilización, distancia, clientes y costo de combustible por vehículo.
